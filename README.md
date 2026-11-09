@@ -2,8 +2,6 @@
 
 An end-to-end customer churn analysis for a (sample) OTT streaming subscription business, built with **Python and SQL**. The project pulls data from a multi-table SQLite database, cleans and merges it, engineers features, calculates churn KPIs, and visualizes the results to find out **who** is churning, **why**, and **when**.
 
-> **Note:** This is a learning project built while following [Rishabh Mishra's YouTube tutorial](https://www.youtube.com/@RishabhMishraOfficial). The dataset is a small sample (21 customers), so the findings are illustrative rather than statistically conclusive.
-
 ---
 
 ## Business Problem
