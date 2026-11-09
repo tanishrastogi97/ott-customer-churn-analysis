@@ -114,19 +114,19 @@ SQLite database `customer_churn.db` with three related tables, joined on `custom
 
 **Monthly churn trend**
 
-![Monthly churn trend](images/monthly_churn_trend.png)
+![Monthly churn trend](main/monthly_churn_trend.png)
 
 **Churn by plan type**
 
-![Churn by plan](images/churn_plan.png)
+![Churn by plan](main/churn_plan.png)
 
 **Churn by state**
 
-![Churn by state](images/churn_state.png)
+![Churn by state](main/churn_state.png)
 
 **Correlation heatmap**
 
-![Correlation heatmap](images/correlation_heatmap.png)
+![Correlation heatmap](main/correlation_heatmap.png)
 
 ---
 
