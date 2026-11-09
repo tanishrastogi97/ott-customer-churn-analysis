@@ -114,19 +114,19 @@ SQLite database `customer_churn.db` with three related tables, joined on `custom
 
 **Monthly churn trend**
 
-![Monthly churn trend](main/monthly_churn_trend.png)
+![Monthly churn trend](monthly_churn_trend.png)
 
 **Churn by plan type**
 
-![Churn by plan](main/churn_plan.png)
+![Churn by plan](churn_by_plan.png)
 
 **Churn by state**
 
-![Churn by state](main/churn_state.png)
+![Churn by state](churn_by_state.png)
 
 **Correlation heatmap**
 
-![Correlation heatmap](main/correlation_heatmap.png)
+![Correlation heatmap](correlation_heatmap.png)
 
 ---
 
@@ -164,7 +164,7 @@ SQLite database `customer_churn.db` with three related tables, joined on `custom
    ```
 3. Launch Jupyter and open the notebook:
    ```bash
-   jupyter notebook churn_analysis.ipynb
+   jupyter notebook churn_analysis_1.ipynb
    ```
 
 Keep `customer_churn.db` in the same folder as the notebook, since the notebook reads it from there.
@@ -177,15 +177,14 @@ Keep `customer_churn.db` in the same folder as the notebook, since the notebook 
 ott-customer-churn-analysis/
 ├── README.md
 ├── requirements.txt
-├── churn_analysis.ipynb
+├── churn_analysis_1.ipynb
 ├── customer_churn.db
 ├── customer_churn_data_raw.xlsx
 ├── exported_churn_data.csv
-└── images/
-    ├── monthly_churn_trend.png
-    ├── churn_plan.png
-    ├── churn_state.png
-    └── correlation_heatmap.png
+├── monthly_churn_trend.png
+├── churn_by_plan.png
+├── churn_by_state.png
+└── correlation_heatmap.png
 ```
 
 ---
